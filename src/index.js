@@ -25,9 +25,9 @@ const pageVariants = {
   }
 };
 
-const RefreshBackend = () => {
-  // This starts the server
-  /** 
+// const RefreshBackend = () => {
+// This starts the server
+/** 
   fetch("https://zfb05.sse.codesandbox.io/", {
     headers: {
       "Content-Type": "application/json",
@@ -35,8 +35,8 @@ const RefreshBackend = () => {
     }
   }).catch((e) => {
     /* ignore */
-  //});
-};
+//});
+// };
 
 export default function App() {
   const [hour1, setHour1] = React.useState(0);

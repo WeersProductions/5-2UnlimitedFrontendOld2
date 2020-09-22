@@ -3,10 +3,6 @@ import React from "react";
 import "./clock.scss";
 
 export default class FancyTime extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { number } = this.props;
     return (

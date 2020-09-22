@@ -1,10 +1,6 @@
 import React from "react";
 
 export default class Quote extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { text } = this.props;
     const text_length = text.length * 55;
